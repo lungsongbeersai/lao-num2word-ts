@@ -1,6 +1,6 @@
 {
   "name": "lao-num2word-ts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Convert numbers to Lao words (TypeScript)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
