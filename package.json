@@ -1,0 +1,27 @@
+{
+  "name": "lao-num2word-ts",
+  "version": "1.0.0",
+  "description": "Convert numbers to Lao words (TypeScript)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    "require": "./dist/index.js",
+    "import": "./dist/index.js"
+  },
+  
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node --cwd-mode src/test.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "LUNG API",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.19.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
